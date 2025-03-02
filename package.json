@@ -51,5 +51,8 @@
     "react-test-renderer": "18.3.1",
     "typescript": "^5.3.3"
   },
-  "private": true
+  "private": true,
+  "patchedDependencies": {
+    "expo@52.0.37": "patches/expo@52.0.37.patch"
+  }
 }
